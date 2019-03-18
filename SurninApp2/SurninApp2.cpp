@@ -6,6 +6,7 @@ using namespace std;
 typedef int(*TEST)();
 int main()
 {
+	std::cout << ("Test after merge");
 	HINSTANCE hDll = LoadLibrary(L"SurninDynDLL");
 	if (hDll == NULL)
 	{
